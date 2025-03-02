@@ -12,6 +12,19 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black; /* כדי לראות את הגבולות */
+  background-color: white;
+}
+.player-red {
+  background-color: red;
+}
+.player-blue {
+  background-color: blue;
+}
+
 
 .App-header {
   background-color: #282c34;
