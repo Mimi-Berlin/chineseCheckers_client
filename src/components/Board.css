@@ -1,0 +1,18 @@
+/* 
+  .hexagon {
+    fill: #ddd;
+    stroke: #000;
+    stroke-width: 0.2;
+    cursor: pointer;
+  }
+  
+  .hexagon.selected {
+    fill: #ffcc00;
+  }
+   */
+  .hexagon {
+    stroke: #000;
+    stroke-width: 0.2;
+    cursor: pointer;
+  }
+  

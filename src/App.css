@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -12,19 +12,6 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-.cell {
-  width: 30px;
-  height: 30px;
-  border: 1px solid black; /* כדי לראות את הגבולות */
-  background-color: white;
-}
-.player-red {
-  background-color: red;
-}
-.player-blue {
-  background-color: blue;
-}
-
 
 .App-header {
   background-color: #282c34;
@@ -49,3 +36,79 @@
     transform: rotate(360deg);
   }
 }
+.App {
+  text-align: center;
+} */
+
+/* .App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+} */
+
+/* מבנה כללי - ממרכז את התוכן */
+body {
+  background-color: #1e1e2f;
+  color: white;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.page-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* צבע רקע כללי */
+}
+
+/* תיבת התוכן המרכזית */
+.content-box {
+  width: 25%; /* רבע רוחב הדף */
+  height: 90vh; /* כמעט כל גובה הדף */
+  background-color: white;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15); /* הצללה */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* אנימציה עדינה למעבר עכבר */
+.content-box:hover {
+  transform: scale(1.02);
+}
+
+/* עיצוב אחיד לכל הכפתורים */
+.game-button {
+  width: 100%;
+  background-color: #3498db; /* צבע כחול */
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+/* אנימציה בלחיצה */
+.game-button:active {
+  transform: scale(0.95);
+  opacity: 0.8;
+}
+
+
+/* וריאציות צבע */
+.game-button.green {
+  background-color: #27ae60;
+}
+
+.game-button.red {
+  background-color: #e74c3c;
+}
+

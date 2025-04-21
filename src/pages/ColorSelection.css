@@ -1,0 +1,40 @@
+.color-selection-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+  }
+  
+  .color-selection-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .color-selection-input {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  select {
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background-color: #61dafb;
+    color: #282c34;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
